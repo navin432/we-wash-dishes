@@ -7,7 +7,7 @@ const Main = () => {
     <>
       <HeadingSection />
       <Banner />
-      <Form />
+      <Form  />
     </>
   );
 };

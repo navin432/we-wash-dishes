@@ -3,12 +3,25 @@ import logo from "../assets/logo.png";
 import ColorModeSwitch from "./ColorModeSwitch";
 export const NavBar = () => {
   return (
-    <Flex justify={"space-between"} fontSize={"xl"}>
+    <Flex
+      justify={"space-between"}
+      fontSize={"xl"}
+      boxShadow="sm"
+    >
       <Image src={logo} boxSize="60px" />
       <HStack>
-        <Link href="#">Home</Link>
-        <Link href="#">Book a Service</Link>
-        <Link href="#">About Us</Link>
+        <Link
+          href="#home"
+          _hover={{ textDecoration: "none", color: "blue.400" }}
+        >
+          Home
+        </Link>
+        <Link
+          href="#form"
+          _hover={{ textDecoration: "none", color: "blue.400" }}
+        >
+          Book a Service
+        </Link>
         <ColorModeSwitch />
       </HStack>
     </Flex>

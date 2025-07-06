@@ -6,6 +6,7 @@ import {
   Text,
   Button,
   VStack,
+  Link,
 } from "@chakra-ui/react";
 import banner from "../assets/banner.png";
 
@@ -48,7 +49,10 @@ const Banner = () => {
             ✅ Reliable for catering, parties & events
             <br />✅ Flexible hours, minimum 3 hours per booking
           </Text>
-          <Button> Book Now</Button>
+
+          <Link href="#form">
+            <Button> Book Now</Button>
+          </Link>
         </VStack>
       </GridItem>
     </Grid>
