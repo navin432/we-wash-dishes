@@ -3,11 +3,7 @@ import logo from "../assets/logo.png";
 import ColorModeSwitch from "./ColorModeSwitch";
 export const NavBar = () => {
   return (
-    <Flex
-      justify={"space-between"}
-      fontSize={"xl"}
-      boxShadow="sm"
-    >
+    <Flex justify={"space-between"} fontSize={"xl"}>
       <Image src={logo} boxSize="60px" />
       <HStack>
         <Link
