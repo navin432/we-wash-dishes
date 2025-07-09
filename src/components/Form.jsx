@@ -27,7 +27,7 @@ const Form = () => {
   };
 
   return (
-    <Box id="book" py={16}>
+    <Box id="form" py={16}>
       <Grid
         templateColumns={{ base: "1fr", md: "1fr 1fr" }}
         gap={8}
