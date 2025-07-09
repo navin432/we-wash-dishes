@@ -22,8 +22,9 @@ const Banner = () => {
           src={banner}
           alt="Dishwashing service banner"
           width="100%"
-          height="80vh"
+          height="50vh"
           borderRadius="md"
+          objectFit={"cover"}
         />
       </GridItem>
 

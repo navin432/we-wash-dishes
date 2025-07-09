@@ -4,15 +4,12 @@ import ColorModeSwitch from "./ColorModeSwitch";
 export const NavBar = () => {
   return (
     <Flex justify={"space-between"} fontSize={"xl"}>
-      <Image src={logo} boxSize="60px" />
+      <Link href="#home" _hover={{ textDecoration: "none", color: "blue.400" }}>
+        <Image src={logo} boxSize="50px" />
+      </Link>
       <HStack>
         <Link
-          href="#home"
-          _hover={{ textDecoration: "none", color: "blue.400" }}
-        >
-          Home
-        </Link>
-        <Link
+          textWrap={"nowrap"}
           href="#form"
           _hover={{ textDecoration: "none", color: "blue.400" }}
         >
