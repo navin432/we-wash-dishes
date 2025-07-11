@@ -8,9 +8,8 @@ function App() {
         base: `"nav" "main"`,
         lg: `"nav nav" "main main"`,
       }}
-      padding="20px"
     >
-      <GridItem area="nav">
+      <GridItem area="nav" padding="20px">
         <NavBar />
       </GridItem>
       <GridItem area="main" marginTop={4}>

@@ -16,18 +16,9 @@ const Banner = () => {
       templateColumns={{ base: "1fr", lg: "1fr 1fr" }}
       alignItems="center"
       gap={4}
+      padding="20px"
+      marginBottom={"40px"}
     >
-      <GridItem animation="shakeX">
-        <Image
-          src={banner}
-          alt="Dishwashing service banner"
-          width="100%"
-          height="50vh"
-          borderRadius="md"
-          objectFit={"cover"}
-        />
-      </GridItem>
-
       <GridItem>
         <VStack align="start" spacing={4}>
           <Heading size="2xl">🍽 Attention Restaurants & Event Hosts!</Heading>
@@ -55,6 +46,16 @@ const Banner = () => {
             <Button> Book Now</Button>
           </Link>
         </VStack>
+      </GridItem>
+      <GridItem animation="shakeX">
+        <Image
+          src={banner}
+          alt="Dishwashing service banner"
+          width="100%"
+          height="50vh"
+          borderRadius="md"
+          objectFit={"cover"}
+        />
       </GridItem>
     </Grid>
   );
